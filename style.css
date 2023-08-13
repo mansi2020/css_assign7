@@ -1,0 +1,185 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+main{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    height:93vh;
+    width:62vw;
+    background-color: rgb(150,196,189);
+    display:flex;
+}
+/* left-part */
+.left-part{
+    width:28%;
+    height:100%;
+    background:linear-gradient(#E7F9F7,#E0F8F6,#AAC4BE);
+    border-radius:4%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    
+}
+/* left-first part */
+.left-first{
+    display:flex;
+    flex-direction:column;
+    align-self:center;
+    margin-top:20px;
+}
+.left-first-img{
+    background-image: url("https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?w=1060&t=st=1691833091~exp=1691833691~hmac=bb95526454c8bdee02e5503c344e419871c1068f9758b4185ec468427376b332");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:70px;
+    width:70px;
+    border-radius:50%;
+    align-self: center;
+}
+.left-first > p{
+    font-size:0.7em;
+    text-align:center;
+}
+.left-first > h5{
+    color:#6783A2;
+    font-weight:bolder;
+    margin:1px 0;
+    margin-top:3px;
+}
+.left-first > p{
+    color:#92A7BD;
+}
+
+/* left-second-part */
+.left-second{
+    display:flex;
+    flex-direction:column;
+}
+.icon{
+    display:flex;
+    align-items:center;
+    padding:25px 60px;
+}
+i{
+    color:#81C2DC;
+    margin-right:25px;
+    transform: scale(1.5);
+   
+}
+.icon > span{
+    color:#92A7BD;
+    font-size:1em;
+    font-weight:500;
+
+}
+
+/* left-third-part */
+.left-third{
+    background:linear-gradient(rgb(128,202,197),#79C1B1) ;
+    margin:20px 20px;
+    border-radius:25px;
+    padding:3px 10px;
+}
+.sub_left_third > span{
+    color:rgb(193,215,214);
+    font-size:1.1em;
+    margin:10px;
+    font-weight:bold;
+    width:35%;
+}
+.sub_left_third > img{
+    border-radius:25px;
+    height:90px;
+    position:relative;
+    bottom:0px;
+    right:5px;
+}
+.sub_left_third{
+    display:flex;
+}
+
+/* right part */
+.right-part{
+    width:72%;
+    height:100%;
+    background: linear-gradient(rgb(209,244,243),rgb(197,242,233),rgb(150,196,189));
+    border-radius:3%;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    padding-left:60px;
+}
+/* right-first */
+.right-first{
+    display:flex;
+    flex-direction:column;
+}
+.right-first-sub-1 > h1{
+    font-weight:900;
+    font-size:2.5em;
+    color:rgb(102,131,163);
+}
+
+.scrollbar{
+    background-color: rgb(226,248,247);
+    height:23px;
+    width:280px;
+    border-radius:20px;
+}
+
+/* right-second */
+.right-second{
+    display:flex;
+    flex-direction:column;
+}
+.card{
+    background: linear-gradient(to right,rgb(228,248,245),rgb(236,250,249));
+    display:flex;
+    justify-content: space-between;
+    width:90%;
+    padding:20px;
+    border-radius:15px;
+    box-shadow: 0 0 15px rgba(170, 170, 170,0.6);
+    color:#92A7BD;
+    margin-bottom: 25px;
+
+}
+.card-image{
+    background-image: url("https://wallpapers.com/images/high/pubg-3d-live-hd-fighter-4if9yi3696bbv2zk.webp");
+    height:80px;
+    width:80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+.card-content > h4{
+    font-size:1.2em;
+    font-weight:300px;
+    margin-bottom:2px;
+}
+.card-content > p{
+    font-size:0.7em;
+    margin-bottom:2px;
+}
+.percent{
+    font-size:1.2em;
+    font-weight:300px;
+}
+.colorscrollbar{
+    background:linear-gradient(to right,rgb(146,231,214),rgb(145,227,226));
+    height:19px;
+    width:240px;
+    border-radius:20px;
+}
